@@ -1,0 +1,21 @@
+TO ADD:
+
+Memory - system asks your name
+  next time user comes back it asks who it is speaking to
+  will load appropriate answers based on user
+  could potentially be used then to save times locations days etc
+
+Better question / answer selection
+  looser, less control, natural language
+
+Functions
+  have the system run functions on command, i.e. ask JPyBot to roll 1-6 using dice.py
+  build more new functions for jpybot to interact with
+
+APIs?
+  do searches with google and other APIs to provide responses
+
+  Potential APIs to investigate
+    Weather
+    Tv Shows?
+    Blizzard
