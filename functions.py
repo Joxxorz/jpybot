@@ -1,5 +1,6 @@
 import questions
 import answers
+import intent
 
 def lookInQuestions(userResponse):
     questionsList = questions.botQuestions
@@ -11,6 +12,12 @@ def searchAgainstAnswers(index):
     answersList = answers.botAnswers
     for e in answersList:
         return answersList[index]
+
+def findIntent(userResponse):
+    intentList = intent.intent
+    for e in intentList:
+        print(e)
+        return intentList[index]
 
 def findAnswer(botResponse, userResponse):
     botResponse = lookInQuestions(userResponse)
